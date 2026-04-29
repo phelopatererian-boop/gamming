@@ -1,0 +1,117 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image:url(../wallpaperflare.com_wallpaper\ \(24\).jpg) ;
+  background-repeat: no-repeat;
+  margin: 0;
+  background-size: cover;
+  font-family: "Merriweather", serif;
+  /* color: #653815; */
+  justify-content: center;
+  align-items: center;
+}
+legend{
+  text-align: center;
+}
+nav
+a{
+  text-decoration: none;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 10px;
+    transition: ease 0.3s all;
+}
+a:hover{
+  padding-inline: 15px;
+  background: #f9c043;
+  color: #000000;
+  transition: ease 0.3s all;
+}
+nav {
+  font-size: large;
+  /* padding: 10px; */
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: space-between;
+
+}
+ul {
+    font-size: larger;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  /* gap: 20px; */
+}
+h2{
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+}
+/* main{
+
+} */
+.sign {
+  display: grid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+/* -------------------- */
+
+fieldset {
+background-color: #ffffff35;
+  width: 100px ;
+  margin-top: 50px;
+  border:0px;
+  border-radius: 5px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.1);
+  padding: 50px;
+text-align: left;
+  justify-content: left;
+  align-items: left;
+  line-height: 35px;
+  font-size: large;
+  color: #000000;
+}
+main {
+  height: 800px;
+  padding: 20px;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+    text-align: center;
+}
+
+/* ----------------------------- */
+.submit {
+  border-radius: 10px;
+}
+.submit:hover{
+  background-color: #653815;
+  color: #fff;
+}
+.submit:active {
+  background-color: 	#f9c043;
+  color: rgb(0, 0, 0);
+}
+/* ------------------------------------ */
+input{
+  border-radius: 5px;
+}
+/* ------------------------- */
+.page__footer {
+  background: #653815;
+  display: flex;
+  /* padding: 10px; */
+  color: #fff;
+ margin-top: auto;
+}
+.page__footer p {
+  color: #fff;
+}
